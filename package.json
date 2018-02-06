@@ -1,0 +1,25 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "diandian renqi",
+  "main": "meadowlark.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yj336/Website.git"
+  },
+  "keywords": [
+    "diandian"
+  ],
+  "author": "diandian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yj336/Website/issues"
+  },
+  "homepage": "https://github.com/yj336/Website#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

@@ -23,7 +23,7 @@ http.createServer(function(req, res){
 		    serveStaticFile(res, '/public/home.html', 'text/html');
 		    break;
 		case '/about':
-		    serveStaticFile(res, '/public/about.html', '');
+		    serveStaticFile(res, '/public/about.html', 'text/html');
 		    break;
 		case '/img/supportcat.jpg':
 		    serveStaticFile(res, '/public/img/supportcat.jpg', 'image/jpeg');
