@@ -1,25 +1,38 @@
 {
-  "name": "app",
-  "version": "1.0.0",
-  "description": "diandian renqi",
+  "name": "meadowlarktravel",
+  "version": "0.0.0",
+  "description": "Sample website for Web Development with Node and Express (O'Reilly).",
   "main": "meadowlark.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yj336/Website.git"
+    "url": "git+https://github.com/EthanRBrown/web-development-with-node-and-express.git"
+  },
+  "author": "Ethan Brown <e@zepln.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/EthanRBrown/web-development-with-node-and-express/issues"
+  },
+  "homepage": "https://github.com/EthanRBrown/web-development-with-node-and-express",
+  "dependencies": {
+    "express": "^4.4.5",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "grunt": "^0.4.5",
+    "grunt-cafe-mocha": "^0.1.13",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-exec": "^0.4.7",
+    "mocha": "~1.20.1",
+    "zombie": "^5.0.7"
+  },
+  "directories": {
+    "lib": "lib"
   },
   "keywords": [
     "diandian"
-  ],
-  "author": "diandian",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yj336/Website/issues"
-  },
-  "homepage": "https://github.com/yj336/Website#readme",
-  "dependencies": {
-    "express": "^4.16.2"
-  }
+  ]
 }
